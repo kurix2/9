@@ -15,7 +15,7 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-	void OnTriggerEnter (Collider other){
+	void OnCollisionEnter (Collision other){
 		if (other.transform.tag == "Lava") {
 			Die ();
 		}

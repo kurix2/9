@@ -20,8 +20,8 @@ public class TeleMovement : MonoBehaviour {
 		{
 			Debug.Log(device.GetAxis().x + " " + device.GetAxis().y);
 		}
-		if (device.GetPressDown (SteamVR_Controller.ButtonMask.Trigger)) //&& telesphereOn == true) 
-			{
+		if (device.GetHairTriggerDown())// (SteamVR_Controller.ButtonMask.Trigger)) //&& telesphereOn == true) 
+        {
 			Instantiate (telesphere, transform.position, Quaternion.identity);
 		} 
 		//if (device.GetTouchDown (SteamVR_Controller.ButtonMask.Trigger) && telesphereOn == false) {	

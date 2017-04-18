@@ -18,24 +18,17 @@ public class EventTriggers : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(head!=null && isLava==true){
-			//if(player.transform.position.x >= 10)
-			//{
-			//lava.transform.Translate (Vector3.back * Time.deltaTime*riseSpeed);
-		//}
-			if (head.transform.position.y < lava.transform.position.y) {
-			Die ();
+        if (head == null)
+        {
+            head = GameObject.FindWithTag("Player");
+        }
+		if (head.transform.position.y < -30) {
+            print("fell past -30");	
+            //Die ();
 			}
 		}
-		if (head == null) {
-			head = GameObject.FindWithTag ("Player");
-			if (head.transform.position.y < -30) {
-				Die ();
-			}
-		}
-	}
 
 	void Die(){
-		GameManager.RestartLevel ();
+		//GameManager.RestartLevel ();
 	}
 }

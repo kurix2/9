@@ -22,14 +22,15 @@ public class TeleMovement : MonoBehaviour {
 		}
 		if (device.GetHairTriggerDown())// (SteamVR_Controller.ButtonMask.Trigger)) //&& telesphereOn == true) 
         {
-			Instantiate (telesphere, transform.position, Quaternion.identity);
-		} 
-		//if (device.GetTouchDown (SteamVR_Controller.ButtonMask.Trigger) && telesphereOn == false) {	
-			//telecube.transform.position = gameObject.transform.position;
-		//}
-		//if (device.GetPressDown (SteamVR_Controller.ButtonMask.Grip)) {
-			//player.transform.position = telecube.transform.position;
-		//}
-	
-	}
+			GameObject tsphereInstance = Instantiate (telesphere, transform.position, Quaternion.identity) as GameObject;
+            tsphereInstance.transform.parent = transform;
+        }
+        if (device.GetHairTriggerUp())
+        {
+            if (gameObject.transform.FindChild("TeleSphere(Clone)") != null)
+            {
+                gameObject.transform.FindChild("TeleSphere(Clone)").transform.parent = null;
+            }
+        }
+    }
 }

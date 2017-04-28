@@ -5,7 +5,7 @@ public class EventTriggers : MonoBehaviour {
 	//public GameObject player;
 	public GameObject head;
 
-	private bool isLava =false;
+	private bool isLava = false;
 	private GameObject lava;
 
 	// Use this for initialization

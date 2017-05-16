@@ -32,6 +32,8 @@ public class Player : MonoBehaviour {
         Die();
     }
 
+
+
 	//void OnTriggerStay(Collider other){
 	//	if (other.gameObject.tag == "Moving Platform") {
 	//		transform.parent = other.transform;

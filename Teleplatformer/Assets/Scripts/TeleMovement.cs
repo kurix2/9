@@ -7,20 +7,17 @@ public class TeleMovement : MonoBehaviour {
 	private SteamVR_Controller.Device device;
 	public GameObject player;
 	public GameObject telesphere;
-	//public bool telesphereOn = false;
-	private GameObject tossedSphere;
+    public Transform pauseTeleport;
+    private Vector3 returnTeleport;
 
 	void Start () {
 		trackedObject = GetComponent<SteamVR_TrackedObject> ();
+        returnTeleport = player.transform.position; 
 	}
 
 	void Update () {
 		device = SteamVR_Controller.Input((int)trackedObject.index);
-		if(device.GetAxis().x != 0 || device.GetAxis().y != 0)
-		{
-			Debug.Log(device.GetAxis().x + " " + device.GetAxis().y);
-		}
-		if (device.GetHairTriggerDown())// (SteamVR_Controller.ButtonMask.Trigger)) //&& telesphereOn == true) 
+		if (device.GetHairTriggerDown())
         {
 			GameObject tsphereInstance = Instantiate (telesphere, transform.position, Quaternion.identity) as GameObject;
             tsphereInstance.transform.parent = transform;
@@ -30,6 +27,17 @@ public class TeleMovement : MonoBehaviour {
             if (gameObject.transform.FindChild("TeleSphere(Clone)") != null)
             {
                 gameObject.transform.FindChild("TeleSphere(Clone)").transform.parent = null;
+            }
+        }
+        if (device.GetPressDown(Valve.VR.EVRButtonId.k_EButton_ApplicationMenu)){
+            if (GameManager.Instance.Paused != true) {
+                returnTeleport = player.transform.position;
+            GameManager.Instance.PauseGame();
+                player.transform.position = pauseTeleport.position;
+            }
+            else {
+                player.transform.position = returnTeleport;
+                GameManager.Instance.PauseGame();
             }
         }
     }

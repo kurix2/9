@@ -16,22 +16,31 @@ public class FollowPlayer : MonoBehaviour {
 
 	}
 
-	// Update is called once per frame
-	void Update () {
-		if (pursuePrey == true) {
-			transform.position = Vector3.MoveTowards (transform.position, prey.position, moveSpeed * Time.deltaTime);
-		} else {
+    // Update is called once per frame
+    void Update()
+    {
+        if (!GameManager.Instance.Paused)
+        {
+            if (pursuePrey == true)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, prey.position, moveSpeed * Time.deltaTime);
+            }
+            else
+            {
 
-			if (transform.position == patrolPoints [currentPoint].position) {
-				currentPoint++;
-			}
+                if (transform.position == patrolPoints[currentPoint].position)
+                {
+                    currentPoint++;
+                }
 
-			if (currentPoint == patrolPoints.Length) {
-				currentPoint = 0;
-				pursuePrey=true;
-			}
+                if (currentPoint == patrolPoints.Length)
+                {
+                    currentPoint = 0;
+                    pursuePrey = true;
+                }
 
-			transform.position = Vector3.MoveTowards (transform.position, patrolPoints [currentPoint].position, moveSpeed * Time.deltaTime);
-		}
-	}
+                transform.position = Vector3.MoveTowards(transform.position, patrolPoints[currentPoint].position, moveSpeed * Time.deltaTime);
+            }
+        }
+    }
 }

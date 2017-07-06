@@ -7,12 +7,13 @@ public class TeleMovement : MonoBehaviour {
 	private SteamVR_Controller.Device device;
 	public GameObject player;
 	public GameObject telesphere;
-    public Transform pauseTeleport;
+    private Transform pauseTeleport;
     private Vector3 returnTeleport;
 
 	void Start () {
 		trackedObject = GetComponent<SteamVR_TrackedObject> ();
-        returnTeleport = player.transform.position; 
+        returnTeleport = player.transform.position;
+        pauseTeleport = GameObject.Find("Pause Teleport").transform;
 	}
 
 	void Update () {

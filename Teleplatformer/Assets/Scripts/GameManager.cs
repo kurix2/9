@@ -64,5 +64,9 @@ public class GameManager : MonoBehaviour {
         {
             PauseGame();
         }
+        if (currentLevel == 0)
+        {
+            paused = false;
+        }
     }
 }

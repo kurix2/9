@@ -7,11 +7,23 @@ public class Player : MonoBehaviour {
     [Space]
     [Header("DeBug用")]
     public float moveSpeed = 4;
+    public Rigidbody teleSphere;
+    public float mouseToss = 1000;
+    public GameObject reticuleDisplay;
+    public Transform fireDirection;
+    public float heightAdjust =10;
     private Rigidbody rb;
+    //public bool fpsMouse = false;
 
 	// Use this for initialization
 	void Start () {
+        reticuleDisplay = GameObject.Find("fpsReticule");
+        reticuleDisplay.SetActive(false);
         rb = GetComponent<Rigidbody>();
+        /*if (fpsMouse == true)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }*/
     }
 
 	// Update is called once per frame
@@ -21,17 +33,10 @@ public class Player : MonoBehaviour {
             StartCoroutine(DeadTime());
         }
 
-        //for playtesting Without VR
-        /*if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftShift))
+        //if (fpsMouse == false)
         {
-            rb.isKinematic = true;
-            rb.detectCollisions = false;
+            Cursor.lockState = CursorLockMode.None;
         }
-        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.S) || Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.Space) || Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            rb.isKinematic = true;
-            rb.detectCollisions = false;
-        }*/
         if (Input.GetKey(KeyCode.W))
         {
             rb.isKinematic = true;
@@ -107,6 +112,32 @@ public class Player : MonoBehaviour {
             rb.isKinematic = false;
         }
 
+        //Mouse Firing
+        if (Input.GetKeyUp(KeyCode.Mouse0))
+        {
+            Rigidbody sphereInstance = Instantiate(teleSphere, transform.position, Quaternion.identity)as Rigidbody;
+            sphereInstance.AddForce(fireDirection.forward * mouseToss);
+            
+        }
+        //Raise off the ground with Mouse2
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            rb.isKinematic = true;
+            Vector3 pos = transform.position;
+            pos.y += heightAdjust;
+            transform.position = pos;
+            //SpriteRenderer n = reticuleDisplay.GetComponent<SpriteRenderer>();
+            reticuleDisplay.SetActive(true);
+            //n.enabled = true;
+        }
+        if (Input.GetKeyUp(KeyCode.Mouse1))
+        {
+            rb.isKinematic = false;
+            //SpriteRenderer n = reticuleDisplay.GetComponent<SpriteRenderer>();
+            //n.enabled = false;
+            reticuleDisplay.SetActive(false);
+        }
+
     }
 
     void OnCollisionEnter (Collision other){
@@ -122,8 +153,7 @@ public class Player : MonoBehaviour {
         Die();
     }
 
-
-	void Die(){
+    void Die(){
         GameManager.RestartLevel ();
 	}
 }

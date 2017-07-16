@@ -16,11 +16,12 @@ public class TeleMovement : MonoBehaviour {
         pauseTeleport = GameObject.Find("Pause Teleport").transform;
 	}
 
-	void Update () {
-		device = SteamVR_Controller.Input((int)trackedObject.index);
-		if (device.GetHairTriggerDown())
+    void Update()
+    {
+        device = SteamVR_Controller.Input((int)trackedObject.index);
+        if (device.GetHairTriggerDown())
         {
-			GameObject tsphereInstance = Instantiate (telesphere, transform.position, Quaternion.identity) as GameObject;
+            GameObject tsphereInstance = Instantiate(telesphere, transform.position, Quaternion.identity) as GameObject;
             tsphereInstance.transform.parent = transform;
         }
         if (device.GetHairTriggerUp())
@@ -30,13 +31,16 @@ public class TeleMovement : MonoBehaviour {
                 gameObject.transform.FindChild("TeleSphere(Clone)").transform.parent = null;
             }
         }
-        if (device.GetPressDown(Valve.VR.EVRButtonId.k_EButton_ApplicationMenu)){
-            if (GameManager.Instance.Paused != true) {
+        if (device.GetPressDown(Valve.VR.EVRButtonId.k_EButton_ApplicationMenu))
+        {
+            if (GameManager.Instance.Paused != true)
+            {
                 returnTeleport = player.transform.position;
-            GameManager.Instance.PauseGame();
+                GameManager.Instance.PauseGame();
                 player.transform.position = pauseTeleport.position;
             }
-            else {
+            else
+            {
                 player.transform.position = returnTeleport;
                 GameManager.Instance.PauseGame();
             }

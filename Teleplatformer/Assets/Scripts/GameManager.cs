@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
 	public static int unlockedLevel;
 
     private bool paused;
+    public GameObject canvas;
 
     void Start()
     {

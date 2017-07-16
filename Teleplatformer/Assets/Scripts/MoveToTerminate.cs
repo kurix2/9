@@ -12,7 +12,7 @@ public class MoveToTerminate : MonoBehaviour {
     {
         if (terminationPoint == null)
         {
-            terminationPoint = GameObject.Find(findTermination).transform;
+           terminationPoint = GameObject.Find(findTermination).transform;
         }
     }
 

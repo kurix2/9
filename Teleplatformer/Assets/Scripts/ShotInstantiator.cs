@@ -4,6 +4,7 @@ using System.Collections;
 public class ShotInstantiator : MonoBehaviour {
 
     public GameObject shot;
+    public Transform glassReceiver;
     public float shotRate;
 
 	// Use this for initialization
@@ -21,7 +22,9 @@ public class ShotInstantiator : MonoBehaviour {
         while (enabled)
         {
             yield return new WaitForSeconds(shotRate);
-            Instantiate(shot, transform.position, Quaternion.identity);
+            Quaternion spawnRotation = glassReceiver.rotation;
+            GameObject shotInstance = Instantiate(shot, transform.position, spawnRotation)as GameObject;
+            shotInstance.GetComponent<MoveToTerminate>().terminationPoint = glassReceiver;
         }
     }
 }

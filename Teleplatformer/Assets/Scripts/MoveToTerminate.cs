@@ -10,20 +10,22 @@ public class MoveToTerminate : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        if (terminationPoint == null)
+        /*if (terminationPoint == null)
         {
            terminationPoint = GameObject.Find(findTermination).transform;
-        }
+        }*/
     }
 
     // Update is called once per frame
     void Update()
     {
-        //transform.position += transform.forward * Time.deltaTime * moveSpeed;
-        transform.position = Vector3.MoveTowards(transform.position, terminationPoint.position, moveSpeed * Time.deltaTime);
-        if (transform.position == terminationPoint.position)
+        if (terminationPoint != null)
         {
-            Destroy(gameObject);
+            transform.position = Vector3.MoveTowards(transform.position, terminationPoint.position, moveSpeed * Time.deltaTime);
+            if (transform.position == terminationPoint.position)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

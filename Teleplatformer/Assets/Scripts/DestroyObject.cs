@@ -8,9 +8,13 @@ public class DestroyObject : MonoBehaviour {
 	void Start () {
 	
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		Destroy (gameObject, Lifetime);
-	}
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Lifetime != 0)
+        {
+            Destroy(gameObject, Lifetime);
+        }
+    }
 }

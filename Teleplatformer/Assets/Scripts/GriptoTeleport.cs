@@ -23,4 +23,12 @@ public class GriptoTeleport : MonoBehaviour {
 			gameObject.GetComponent<TextMesh> ().text = "Hold Trigger";
 		}
 	}
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
+    }
 }

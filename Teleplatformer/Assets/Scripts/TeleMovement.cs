@@ -9,11 +9,17 @@ public class TeleMovement : MonoBehaviour {
 	public GameObject telesphere;
     private Transform pauseTeleport;
     private Vector3 returnTeleport;
+    [Space]
+    public GameObject placeMarker;
+    public float markDisplaceY = 5f;
 
 	void Start () {
 		trackedObject = GetComponent<SteamVR_TrackedObject> ();
         returnTeleport = player.transform.position;
-        pauseTeleport = GameObject.Find("Pause Teleport").transform;
+        if (GameObject.Find("Pause Teleport") != null)
+        {
+            pauseTeleport = GameObject.Find("Pause Teleport").transform;
+        }
 	}
 
     void Update()
@@ -31,11 +37,13 @@ public class TeleMovement : MonoBehaviour {
                 gameObject.transform.FindChild("TeleSphere(Clone)").transform.parent = null;
             }
         }
-        if (device.GetPressDown(Valve.VR.EVRButtonId.k_EButton_ApplicationMenu))
+        if (device.GetPressDown(Valve.VR.EVRButtonId.k_EButton_ApplicationMenu) && pauseTeleport != null)
         {
             if (GameManager.Instance.Paused != true)
             {
                 returnTeleport = player.transform.position;
+                Vector3 markPos = new Vector3(transform.position.x, transform.position.y + markDisplaceY, transform.position.z);
+                Instantiate(placeMarker, player.transform.position, Quaternion.identity);
                 GameManager.Instance.PauseGame();
                 player.transform.position = pauseTeleport.position;
             }

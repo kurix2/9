@@ -15,7 +15,7 @@ public class Patrol : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () { 
 			
 		if (transform.position == patrolPoints [currentPoint].position) 
 		{
@@ -27,6 +27,9 @@ public class Patrol : MonoBehaviour {
 			currentPoint = 0;
 		}
 
-		transform.position = Vector3.MoveTowards (transform.position, patrolPoints [currentPoint].position, moveSpeed * Time.deltaTime);
+        if (GameManager.Instance.Paused != true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, patrolPoints[currentPoint].position, moveSpeed * Time.deltaTime);
+        }
 	}
 }

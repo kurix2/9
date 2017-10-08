@@ -1,0 +1,5614 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6045 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.235 seconds
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.0\teleplatformer_1.0_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1600x1200 60Hz; virtual: 3520x1200 at 0,0
+<RI> Initialized touch support.
+OpenVR initialized!
+ 
+(Filename:  Line: 353)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+UnloadTime: 0.711127 ms
+Connected to lighthouse:LHR-7D0DBDDA
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: d18 -> priority: 1 
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.968327 ms
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 1401.
+Total: 0.553209 ms (FindLiveObjects: 0.078462 ms CreateObjectMapping: 0.019201 ms MarkObjects: 0.337024 ms  DeleteObjects: 0.118190 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.830641 ms
+
+Unloading 146 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 0.766746 ms (FindLiveObjects: 0.117528 ms CreateObjectMapping: 0.030126 ms MarkObjects: 0.386352 ms  DeleteObjects: 0.232076 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.092845 ms
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 0.746551 ms (FindLiveObjects: 0.120507 ms CreateObjectMapping: 0.036748 ms MarkObjects: 0.390987 ms  DeleteObjects: 0.197976 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.269964 ms
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 0.723045 ms (FindLiveObjects: 0.112893 ms CreateObjectMapping: 0.029795 ms MarkObjects: 0.457531 ms  DeleteObjects: 0.121500 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.316976 ms
+
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 0.818061 ms (FindLiveObjects: 0.130770 ms CreateObjectMapping: 0.030789 ms MarkObjects: 0.377082 ms  DeleteObjects: 0.278756 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.329225 ms
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 0.736288 ms (FindLiveObjects: 0.175795 ms CreateObjectMapping: 0.031451 ms MarkObjects: 0.415155 ms  DeleteObjects: 0.112893 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.168327 ms
+
+Unloading 95 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 0.827331 ms (FindLiveObjects: 0.120176 ms CreateObjectMapping: 0.033437 ms MarkObjects: 0.480375 ms  DeleteObjects: 0.192348 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.801323 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 0.717417 ms (FindLiveObjects: 0.094684 ms CreateObjectMapping: 0.043038 ms MarkObjects: 0.463490 ms  DeleteObjects: 0.115541 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.200772 ms
+
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 0.785616 ms (FindLiveObjects: 0.118190 ms CreateObjectMapping: 0.032775 ms MarkObjects: 0.437005 ms  DeleteObjects: 0.197314 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.788412 ms
+
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 0.819054 ms (FindLiveObjects: 0.099650 ms CreateObjectMapping: 0.033106 ms MarkObjects: 0.497921 ms  DeleteObjects: 0.188044 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.374581 ms
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 0.770056 ms (FindLiveObjects: 0.122494 ms CreateObjectMapping: 0.032775 ms MarkObjects: 0.468456 ms  DeleteObjects: 0.145668 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.197792 ms
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 2038.
+Total: 0.948500 ms (FindLiveObjects: 0.090049 ms CreateObjectMapping: 0.032444 ms MarkObjects: 0.560492 ms  DeleteObjects: 0.265182 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.993672 ms
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 0.731653 ms (FindLiveObjects: 0.128784 ms CreateObjectMapping: 0.033437 ms MarkObjects: 0.504211 ms  DeleteObjects: 0.064557 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.457678 ms
+
+Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 2086.
+Total: 0.876659 ms (FindLiveObjects: 0.129777 ms CreateObjectMapping: 0.034099 ms MarkObjects: 0.496266 ms  DeleteObjects: 0.215854 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.152767 ms
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2110.
+Total: 0.813426 ms (FindLiveObjects: 0.079124 ms CreateObjectMapping: 0.041383 ms MarkObjects: 0.567445 ms  DeleteObjects: 0.125142 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.389148 ms
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2134.
+Total: 0.872024 ms (FindLiveObjects: 0.115210 ms CreateObjectMapping: 0.042376 ms MarkObjects: 0.644914 ms  DeleteObjects: 0.068861 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.189516 ms
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 0.864079 ms (FindLiveObjects: 0.125804 ms CreateObjectMapping: 0.033437 ms MarkObjects: 0.643259 ms  DeleteObjects: 0.060915 ms)
+
+Platform (UnityEngine.GameObject)'s newLevel is3& the playerProgress is at 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform (UnityEngine.GameObject)'s newLevel is6& the playerProgress is at 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform (UnityEngine.GameObject)'s newLevel is4& the playerProgress is at 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform (UnityEngine.GameObject)'s newLevel is5& the playerProgress is at 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.992532 ms
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2182.
+Total: 0.874342 ms (FindLiveObjects: 0.100974 ms CreateObjectMapping: 0.043369 ms MarkObjects: 0.569100 ms  DeleteObjects: 0.159904 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.502372 ms
+
+Unloading 113 unused Assets to reduce memory usage. Loaded Objects now: 2206.
+Total: 1.176935 ms (FindLiveObjects: 0.233731 ms CreateObjectMapping: 0.035423 ms MarkObjects: 0.598234 ms  DeleteObjects: 0.301269 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.464962 ms
+
+Unloading 168 unused Assets to reduce memory usage. Loaded Objects now: 5291.
+Total: 1.680816 ms (FindLiveObjects: 0.254257 ms CreateObjectMapping: 0.065881 ms MarkObjects: 1.017031 ms  DeleteObjects: 0.342652 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.162588 ms
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 5315.
+Total: 1.430200 ms (FindLiveObjects: 0.319146 ms CreateObjectMapping: 0.055287 ms MarkObjects: 0.955122 ms  DeleteObjects: 0.100312 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.211402 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 5339.
+Total: 1.381202 ms (FindLiveObjects: 0.294647 ms CreateObjectMapping: 0.055287 ms MarkObjects: 0.892219 ms  DeleteObjects: 0.138385 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.212211 ms
+
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 5363.
+Total: 1.430862 ms (FindLiveObjects: 0.263196 ms CreateObjectMapping: 0.058929 ms MarkObjects: 0.952473 ms  DeleteObjects: 0.155600 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.589442 ms
+
+Unloading 200 unused Assets to reduce memory usage. Loaded Objects now: 4420.
+Total: 1.546735 ms (FindLiveObjects: 0.304248 ms CreateObjectMapping: 0.062902 ms MarkObjects: 0.840904 ms  DeleteObjects: 0.338348 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.520984 ms
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 4444.
+Total: 1.144160 ms (FindLiveObjects: 0.200956 ms CreateObjectMapping: 0.057605 ms MarkObjects: 0.792238 ms  DeleteObjects: 0.092698 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.802280 ms
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4468.
+Total: 1.411660 ms (FindLiveObjects: 0.225124 ms CreateObjectMapping: 0.058929 ms MarkObjects: 1.029611 ms  DeleteObjects: 0.097002 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.137317 ms
+
+Unloading 84 unused Assets to reduce memory usage. Loaded Objects now: 4492.
+Total: 1.143498 ms (FindLiveObjects: 0.165532 ms CreateObjectMapping: 0.059260 ms MarkObjects: 0.782968 ms  DeleteObjects: 0.135405 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.001728 ms
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 4516.
+Total: 1.443442 ms (FindLiveObjects: 0.257568 ms CreateObjectMapping: 0.068199 ms MarkObjects: 0.984255 ms  DeleteObjects: 0.133088 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.254992 ms
+
+Unloading 80 unused Assets to reduce memory usage. Loaded Objects now: 4540.
+Total: 1.438145 ms (FindLiveObjects: 0.224130 ms CreateObjectMapping: 0.059260 ms MarkObjects: 0.990215 ms  DeleteObjects: 0.164208 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.995106 ms
+
+Unloading 142 unused Assets to reduce memory usage. Loaded Objects now: 4564.
+Total: 1.458009 ms (FindLiveObjects: 0.234724 ms CreateObjectMapping: 0.064226 ms MarkObjects: 0.922346 ms  DeleteObjects: 0.236049 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.243846 ms
+
+Unloading 63 unused Assets to reduce memory usage. Loaded Objects now: 4588.
+Total: 1.486812 ms (FindLiveObjects: 0.261541 ms CreateObjectMapping: 0.064226 ms MarkObjects: 1.015375 ms  DeleteObjects: 0.144675 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.564575 ms
+
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 4612.
+Total: 1.388155 ms (FindLiveObjects: 0.230752 ms CreateObjectMapping: 0.064888 ms MarkObjects: 0.875997 ms  DeleteObjects: 0.216185 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.050909 ms
+
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 4636.
+Total: 1.344123 ms (FindLiveObjects: 0.200294 ms CreateObjectMapping: 0.063895 ms MarkObjects: 0.908442 ms  DeleteObjects: 0.170829 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.393377 ms
+
+Unloading 58 unused Assets to reduce memory usage. Loaded Objects now: 4660.
+Total: 1.324259 ms (FindLiveObjects: 0.238697 ms CreateObjectMapping: 0.067537 ms MarkObjects: 0.910428 ms  DeleteObjects: 0.107265 ms)
+
+OpenVR Shutdown
+ 
+(Filename:  Line: 707)
+

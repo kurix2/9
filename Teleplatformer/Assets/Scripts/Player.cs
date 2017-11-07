@@ -208,12 +208,6 @@ public class Player : MonoBehaviour {
 		if (other.transform.tag == "Lava") {
             isDead = true;
         }
-        if (other.transform.tag == "Push")
-        {
-            Transform pushDir = other.transform; 
-            transform.position = Vector3.MoveTowards(transform.position, -pushDir.position, speedIfPushed * Time.deltaTime);
-            print("added force?");
-        }
 	}
 
     IEnumerator DeadTime() {

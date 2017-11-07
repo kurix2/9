@@ -6,8 +6,9 @@ public class FollowPlayer : MonoBehaviour {
 	public Transform prey;
 	public bool pursuePrey=false;
 	public float moveSpeed=1f;
+    public float rotSpeed = 2f; //may need to change to a percent
 
-	private int currentPoint;
+    private int currentPoint;
 
 	// Use this for initialization
 	void Start () {
@@ -27,6 +28,13 @@ public class FollowPlayer : MonoBehaviour {
             }
             else
             {
+                //rotation Experiment (Probably can Delete)
+                /*if (currentPoint != patrolPoints.Length-1 && currentPoint != 0){
+                    if (Vector3.Distance(patrolPoints[currentPoint].position, transform.position) <= 10)
+                    {
+                        RotateToPoint();
+                    }
+                }*/
 
                 if (transform.position == patrolPoints[currentPoint].position)
                 {
@@ -43,4 +51,10 @@ public class FollowPlayer : MonoBehaviour {
             }
         }
     }
+     /*void RotateToPoint()
+    {
+        Vector3 targetDir = patrolPoints[currentPoint + 1].position - transform.position;
+        Quaternion newDir = Quaternion.LookRotation(-targetDir);
+        transform.rotation = Quaternion.Lerp(transform.rotation, newDir, rotSpeed * Time.deltaTime);
+    }*/
 }

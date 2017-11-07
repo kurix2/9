@@ -27,15 +27,18 @@ public class TeleMovement : MonoBehaviour {
         device = SteamVR_Controller.Input((int)trackedObject.index);
         if (device.GetHairTriggerDown())
         {
-            GameObject tsphereInstance = Instantiate(telesphere, transform.position, Quaternion.identity) as GameObject;
-            tsphereInstance.transform.parent = transform;
+            if (GameObject.FindGameObjectWithTag("TeleSphere") != null)
+            {
+                Destroy(GameObject.FindGameObjectWithTag("TeleSphere"));
+            }
+                Instantiate(telesphere, transform.position, Quaternion.identity);
         }
         if (device.GetHairTriggerUp())
         {
-            if (gameObject.transform.FindChild("TeleSphere(Clone)") != null)
+            /*if (gameObject.transform.FindChild("TeleSphere(Clone)") != null)
             {
                 gameObject.transform.FindChild("TeleSphere(Clone)").transform.parent = null;
-            }
+            }*/
         }
         if (device.GetPressDown(Valve.VR.EVRButtonId.k_EButton_ApplicationMenu) && pauseTeleport != null)
         {

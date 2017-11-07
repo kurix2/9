@@ -1,0 +1,100 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFoundPresenceFailed: "Hmd Not Found Presence Failed (126)"!
+ 
+(Filename:  Line: 777)
+
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6045 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\ドキュメント\Unity\gitRepositories\Teleplatformer\・builds\teleplatformer_1.1\teleplatformer_1.1_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1600x1200 60Hz; virtual: 3520x1200 at 0,0
+<RI> Initialized touch support.
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFoundPresenceFailed: "Hmd Not Found Presence Failed (126)"!
+ 
+(Filename:  Line: 777)
+
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_HmdNotFoundPresenceFailed: "Hmd Not Found Presence Failed (126)"!
+ 
+(Filename:  Line: 777)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+UnloadTime: 0.864410 ms
+Platform (UnityEngine.GameObject)'s newLevel is1& the playerProgress is at 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform (UnityEngine.GameObject)'s newLevel is7& the playerProgress is at 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform (UnityEngine.GameObject)'s newLevel is3& the playerProgress is at 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform (UnityEngine.GameObject)'s newLevel is6& the playerProgress is at 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Platform (UnityEngine.GameObject)'s newLevel is4& the playerProgress is at 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform (UnityEngine.GameObject)'s newLevel is5& the playerProgress is at 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Platform (UnityEngine.GameObject)'s newLevel is2& the playerProgress is at 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 53c -> priority: 1 
+UnloadTime: 2.605149 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1152.
+Total: 0.382048 ms (FindLiveObjects: 0.058267 ms CreateObjectMapping: 0.021519 ms MarkObjects: 0.224793 ms  DeleteObjects: 0.077138 ms)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'TeleSphere') is missing!
+ 
+(Filename:  Line: 1656)
+

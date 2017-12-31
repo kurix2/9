@@ -4,131 +4,77 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
     public GameObject player;
     public float moveSpeed;
-    public float maxSpeed;
-
-    [Space]
-    [Header("Shot Parameters")]
-    public GameObject shot;
-    public float fireRate;
-    public Transform shotSpawner;
-    private float nextFire = 0.0f;
+    public float clickMoveSpeed;
 
     [Space]
     [Header("Control Mode")]
-    public bool pathType;
-    public bool flightAssist;
-
-    private Vector2 clickPoint;
-    private Vector3 mousePos;
-    private Vector3 enemyPos;
+    private Vector2 clickPoint; 
     private bool pointClicked = false;
-    private bool lockedOn = false;
+    [HideInInspector]public bool inDanger = false;
+
+    public static PlayerController Instance { get; set; }
+  
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else { Instance = this; }
+    }
 
     void Update()
     {
-        if (pathType)
-        {
-            PathControls();
-        }
-        else
-        {
-            WasdControls();
-        }
+       
+            Controls();
     }
 
-    void WasdControls()
+    void Controls()
     {
-        //WASD
-
-        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition); //mouse rotation
-        Vector3 dir = (mousePos - player.transform.position);
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        player.transform.rotation = Quaternion.AngleAxis(angle -90, Vector3.forward);
-
-        if (flightAssist)
+        if (!inDanger)
         { 
-            #region Flight Assist On
+
+        #region WasdControls
         if (Input.GetKey(KeyCode.W))
         {
-            Vector2 dirUp = new Vector2(player.transform.position.x, player.transform.position.y+1);
-            player.transform.position = Vector2.MoveTowards(player.transform.position, dirUp, Time.deltaTime * moveSpeed/2);
+            if (pointClicked) { pointClicked = false; }
+            Vector2 dirUp = new Vector2(player.transform.position.x, player.transform.position.y + 1);
+            player.transform.position = Vector2.MoveTowards(player.transform.position, dirUp, Time.deltaTime * moveSpeed / 2);
         }
+
         if (Input.GetKey(KeyCode.S))
         {
+            if (pointClicked) { pointClicked = false; }
             Vector2 dirDown = new Vector2(player.transform.position.x, player.transform.position.y - 1);
-            player.transform.position = Vector2.MoveTowards(player.transform.position, dirDown, Time.deltaTime * moveSpeed/2);
+            player.transform.position = Vector2.MoveTowards(player.transform.position, dirDown, Time.deltaTime * moveSpeed / 2);
         }
+
         if (Input.GetKey(KeyCode.D))
         {
-            Vector2 dirRight = new Vector2(player.transform.position.x+1, player.transform.position.y);
-            player.transform.position = Vector2.MoveTowards(player.transform.position, dirRight, Time.deltaTime * moveSpeed/2);
+            if (pointClicked) { pointClicked = false; }
+            Vector2 dirRight = new Vector2(player.transform.position.x + 1, player.transform.position.y);
+            player.transform.position = Vector2.MoveTowards(player.transform.position, dirRight, Time.deltaTime * moveSpeed / 2);
         }
-            if (Input.GetKey(KeyCode.A))
-            {
-                Vector2 dirLeft = new Vector2(player.transform.position.x - 1, player.transform.position.y);
-                player.transform.position = Vector2.MoveTowards(player.transform.position, dirLeft, Time.deltaTime * moveSpeed/2);
-            }
-                #endregion
-        }
-            else
-        {
-          #region Flight Assist Off
-                Vector2 movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-                Rigidbody2D playerRb = player.GetComponent<Rigidbody2D>();
-                if (playerRb.velocity.magnitude < maxSpeed) //non-flight assist mode
-                {
-                    playerRb.AddForce(movement * moveSpeed);
-                }
-                #endregion
-        }
-        //Mouse Fire
-        if (Input.GetButton("Fire1") && Time.time > nextFire)
-        {
-                nextFire = Time.time + fireRate;
-                Instantiate(shot, shotSpawner.position, shotSpawner.rotation);
-        }
-    }
 
-    void PathControls()
-    {
-        //ongoing movement
+        if (Input.GetKey(KeyCode.A))
+        {
+            if (pointClicked) { pointClicked = false; }
+            Vector2 dirLeft = new Vector2(player.transform.position.x - 1, player.transform.position.y);
+            player.transform.position = Vector2.MoveTowards(player.transform.position, dirLeft, Time.deltaTime * moveSpeed/2);
+        }
+        #endregion
+
+        #region MouseControls
         if (pointClicked)
         {
-            Vector2 dir = clickPoint - new Vector2(player.transform.position.x, player.transform.position.y);
-            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            player.transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
-            if (Input.GetKey(KeyCode.LeftShift) != true)
-            {
-                player.transform.position = Vector2.MoveTowards(player.transform.position, clickPoint, Time.deltaTime * moveSpeed);
-            }
+                player.transform.position = Vector2.MoveTowards(player.transform.position, clickPoint, Time.deltaTime * clickMoveSpeed); 
         }
-
-        //ongoing Lockon
-        if (lockedOn)
-        {
-            Vector3 dir = enemyPos - player.transform.position;
-            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-            player.transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward); //lock on rotation
-            //basic fire 
-            if(Time.time > nextFire)
-            {
-                nextFire = Time.time + fireRate;
-                Instantiate(shot, shotSpawner.position, shotSpawner.rotation);
-            }
-            
-        }
-
         if (Input.GetMouseButton(0) || Input.GetMouseButton(1))
         {
             ClickInteraction();
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            TargetScanners();
-        }
-        if (Input.GetMouseButtonDown(1))
-        {
-            if (lockedOn) { lockedOn = false; }
+            #endregion
+
         }
     }
 
@@ -138,17 +84,8 @@ public class PlayerController : MonoBehaviour {
         clickPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
-    void TargetScanners()
+    public void ToggleDanger()
     {
-        Ray scan = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit2D scanObj = Physics2D.Raycast(scan.origin, scan.direction);
-
-        if (scanObj.collider != null)
-        {
-            enemyPos = scanObj.collider.transform.position;
-            lockedOn = true;
-        }
+        inDanger = !inDanger;
     }
- 
-	
 }

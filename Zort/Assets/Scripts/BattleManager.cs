@@ -62,8 +62,10 @@ public class BattleManager : MonoBehaviour {
                 currentEnemyHp--;
                 if(currentEnemyHp <= 0)
                 {
-                DialogSystem.Instance.ChangeDialog("You killed the " + enemyName);
+                    //DialogSystem.Instance.ChangeDialog("You killed the " + enemyName);
+                    DialogSystem.Instance.isDanger = false;
                     PlayerController.Instance.ToggleDanger();
+                    DialogSystem.Instance.NextSentence();
                 }else
                 {
                 DialogSystem.Instance.ChangeDialog("You wound the " + enemyName +"\nbut it keeps fighting");

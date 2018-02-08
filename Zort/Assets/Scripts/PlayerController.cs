@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
-    public GameObject player;
     public float moveSpeed;
     public float clickMoveSpeed;
 
@@ -38,51 +38,61 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKey(KeyCode.W))
         {
             if (pointClicked) { pointClicked = false; }
-            Vector2 dirUp = new Vector2(player.transform.position.x, player.transform.position.y + 1);
-            player.transform.position = Vector2.MoveTowards(player.transform.position, dirUp, Time.deltaTime * moveSpeed / 2);
+            Vector2 dirUp = new Vector2(transform.position.x, transform.position.y + 1);
+            transform.position = Vector2.MoveTowards(transform.position, dirUp, Time.deltaTime * moveSpeed / 2);
         }
 
         if (Input.GetKey(KeyCode.S))
         {
             if (pointClicked) { pointClicked = false; }
-            Vector2 dirDown = new Vector2(player.transform.position.x, player.transform.position.y - 1);
-            player.transform.position = Vector2.MoveTowards(player.transform.position, dirDown, Time.deltaTime * moveSpeed / 2);
+            Vector2 dirDown = new Vector2(transform.position.x, transform.position.y - 1);
+            transform.position = Vector2.MoveTowards(transform.position, dirDown, Time.deltaTime * moveSpeed / 2);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
             if (pointClicked) { pointClicked = false; }
-            Vector2 dirRight = new Vector2(player.transform.position.x + 1, player.transform.position.y);
-            player.transform.position = Vector2.MoveTowards(player.transform.position, dirRight, Time.deltaTime * moveSpeed / 2);
+            Vector2 dirRight = new Vector2(transform.position.x + 1, transform.position.y);
+            transform.position = Vector2.MoveTowards(transform.position, dirRight, Time.deltaTime * moveSpeed / 2);
         }
 
         if (Input.GetKey(KeyCode.A))
         {
             if (pointClicked) { pointClicked = false; }
-            Vector2 dirLeft = new Vector2(player.transform.position.x - 1, player.transform.position.y);
-            player.transform.position = Vector2.MoveTowards(player.transform.position, dirLeft, Time.deltaTime * moveSpeed/2);
+            Vector2 dirLeft = new Vector2(transform.position.x - 1, transform.position.y);
+            transform.position = Vector2.MoveTowards(transform.position, dirLeft, Time.deltaTime * moveSpeed/2);
         }
         #endregion
 
         #region MouseControls
         if (pointClicked)
         {
-                player.transform.position = Vector2.MoveTowards(player.transform.position, clickPoint, Time.deltaTime * clickMoveSpeed); 
-        }
-        if (Input.GetMouseButton(0) || Input.GetMouseButton(1))
+                // player.transform.position = Vector2.MoveTowards(player.transform.position, clickPoint, Time.deltaTime * clickMoveSpeed); 
+                transform.position = Vector2.MoveTowards(transform.position, clickPoint, Time.deltaTime * clickMoveSpeed);
+            }
+        if (Input.GetMouseButton(0) || Input.GetMouseButton(1)) 
         {
             ClickInteraction();
         }
-            #endregion
 
         }
     }
 
     void ClickInteraction()
     {
-        if (!pointClicked) { pointClicked = true; }
-        clickPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        if (!EventSystem.current.IsPointerOverGameObject())
+        {
+            if (!pointClicked) { pointClicked = true; }
+            clickPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (pointClicked) { pointClicked = false; }
+    }
+
+    #endregion
 
     public void ToggleDanger()
     {

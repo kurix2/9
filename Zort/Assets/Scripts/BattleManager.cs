@@ -4,7 +4,15 @@ using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour {
     public static BattleManager Instance { get; set; }
-    public InputField inputField;
+    [Header("Player Stats")]
+    public int playerMxHp = 12;
+    public int playerHp;
+    public Transform hpHearts;
+    public int playerAtk = 2;
+    private int AtkCount;
+
+    [HideInInspector] public bool inBattle = false;
+    [HideInInspector] public bool isDead = false;
 
     private string enemyName;
     private int toHit;
@@ -20,6 +28,12 @@ public class BattleManager : MonoBehaviour {
         }else { Instance = this; }
     }
 
+    private void Start()
+    {
+        AtkCount = playerAtk;
+        playerHp = playerMxHp;
+    }
+
     public void GenerateBattleStats(string name, int hitRng, int enemyHp, int AtkDmg)
     {
         //stats
@@ -32,8 +46,18 @@ public class BattleManager : MonoBehaviour {
         enemyAtkDmg = AtkDmg;
         print("enemy Attack dmg is " + enemyAtkDmg);
 
-        //force input
-        inputField.ActivateInputField();
+    }
+
+    #region Battle Dialogues
+
+    public void StartBattle()
+    {
+        inBattle = true;
+    }
+
+    public void EndBattle()
+    {
+        inBattle = false;
     }
 
     public void GenerateBattleStats()
@@ -43,6 +67,8 @@ public class BattleManager : MonoBehaviour {
 
     public void AttemptHit(string userInput)
     {
+        string missDialogue = "";
+
         int roll = 0;
         if (int.TryParse(userInput, out roll))
         {
@@ -50,11 +76,26 @@ public class BattleManager : MonoBehaviour {
             {
                 if (roll > toHit)
                 {
-                    DialogSystem.Instance.ChangeDialog("lower");
+                    missDialogue = "you aim too <color=red> HIGH </color> and miss!";
+                    DialogSystem.Instance.ChangeDialog(missDialogue);
 
                 }else {
+                    missDialogue = "you aim too <color=blue> LOW </color> and miss!";
+                    DialogSystem.Instance.ChangeDialog(missDialogue);
+                }
 
-                    DialogSystem.Instance.ChangeDialog("higher");
+                AtkCount--;
+                if (AtkCount <= 0)
+                {
+                    DialogSystem.Instance.ChangeDialog(missDialogue + "\n" + enemyName + " attacks you for <color=red>" + enemyAtkDmg + "</color> damage!");
+                    TakeDamage();
+
+                    if (playerHp <= 0)
+                    {
+                        isDead = true;
+                        DialogSystem.Instance.ChangeDialog(missDialogue + "\n" + enemyName + "attacks a final time \nand you fall to the ground <color=red>DEAD</color>");
+                    }
+                    AtkCount = playerAtk;
                 }
             }
             else
@@ -62,19 +103,23 @@ public class BattleManager : MonoBehaviour {
                 currentEnemyHp--;
                 if(currentEnemyHp <= 0)
                 {
-                    //DialogSystem.Instance.ChangeDialog("You killed the " + enemyName);
-                    DialogSystem.Instance.isDanger = false;
-                    PlayerController.Instance.ToggleDanger();
-                    DialogSystem.Instance.NextSentence();
+                    DialogSystem.Instance.ChangeDialog("You killed " + enemyName);
+                    EndBattle();
                 }else
                 {
-                DialogSystem.Instance.ChangeDialog("You wound the " + enemyName +"\nbut it keeps fighting");
+                DialogSystem.Instance.ChangeDialog("You wound " + enemyName +"\nbut it keeps fighting");
                     GenerateBattleStats();
                 }
             }
         
         }
     }
+    #endregion
 
-	
+    void TakeDamage()
+    {
+        playerHp -= enemyAtkDmg;
+        hpHearts.GetComponent<HeartHp>().CalculateHp();
+
+    }
 }

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour {
     [Header("Control Mode")]
     private Vector2 clickPoint; 
     private bool pointClicked = false;
-    [HideInInspector]public bool inDanger = false;
+    [HideInInspector]public bool moveAllowed = true;
 
     public static PlayerController Instance { get; set; }
   
@@ -31,33 +31,33 @@ public class PlayerController : MonoBehaviour {
 
     void Controls()
     {
-        if (!inDanger)
-        { 
+        if (moveAllowed)
+        {
 
-        #region WasdControls
-        if (Input.GetKey(KeyCode.W))
+            #region WasdControls
+            if (Input.GetButton("Up"))
         {
             if (pointClicked) { pointClicked = false; }
             Vector2 dirUp = new Vector2(transform.position.x, transform.position.y + 1);
             transform.position = Vector2.MoveTowards(transform.position, dirUp, Time.deltaTime * moveSpeed / 2);
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetButton("Down"))
         {
             if (pointClicked) { pointClicked = false; }
             Vector2 dirDown = new Vector2(transform.position.x, transform.position.y - 1);
             transform.position = Vector2.MoveTowards(transform.position, dirDown, Time.deltaTime * moveSpeed / 2);
         }
 
-        if (Input.GetKey(KeyCode.D))
+            if(Input.GetButton("Right"))
         {
             if (pointClicked) { pointClicked = false; }
             Vector2 dirRight = new Vector2(transform.position.x + 1, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, dirRight, Time.deltaTime * moveSpeed / 2);
         }
 
-        if (Input.GetKey(KeyCode.A))
-        {
+            if (Input.GetButton("Left"))
+            {
             if (pointClicked) { pointClicked = false; }
             Vector2 dirLeft = new Vector2(transform.position.x - 1, transform.position.y);
             transform.position = Vector2.MoveTowards(transform.position, dirLeft, Time.deltaTime * moveSpeed/2);
@@ -94,8 +94,9 @@ public class PlayerController : MonoBehaviour {
 
     #endregion
 
-    public void ToggleDanger()
+    public void ToggleMovement()
     {
-        inDanger = !inDanger;
+        moveAllowed = !moveAllowed;
+        pointClicked = false;
     }
 }

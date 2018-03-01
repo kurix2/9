@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     public GameObject inventoryFrame;
+    public Transform inventorySlots;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour {
             else
             {
                 inventoryFrame.SetActive(true);
+                inventorySlots.GetComponent<InventorySlots>().SynchSlots();
             }
         }
 		

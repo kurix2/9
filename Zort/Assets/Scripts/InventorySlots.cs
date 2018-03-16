@@ -38,13 +38,7 @@ public class InventorySlots : MonoBehaviour {
         for (int i = 0; i < inventoryList.Count; i++)
         {
             Transform child = slotsList[i].transform.GetChild(0);
-            child.GetComponent<Image>().sprite = inventoryList[i].itemIcon;
-            child.GetComponent<Image>().color = Color.white;
+            child.GetComponent<ItemSlot>().SlotItem(inventoryList[i]);
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

@@ -20,7 +20,7 @@ public class HeartHp : MonoBehaviour {
     {
         for (int i = 0; i < hearts.Length; i++)
         {
-            if (BattleManager.Instance.playerMxHp <= (i+1)*4)
+            if (BattleManager.Instance.playerMxHp < (i+1)*4)
             {
                 hearts[i].gameObject.SetActive(false);
             }

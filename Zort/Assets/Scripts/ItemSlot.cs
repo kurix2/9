@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class ItemSlot : MonoBehaviour
+public class ItemSlot : MonoBehaviour, IPointerClickHandler
 {
     public Item slottedItem;
     private Item emptyItem;
@@ -13,7 +14,7 @@ public class ItemSlot : MonoBehaviour
     void Start()
     {
         emptyItem = slottedItem;
-        emptyColor = new Color(0.25F, 0.36f, 0.36f, 1.0f);
+        emptyColor = new Color32(117, 142, 142, 255);
     }
 
     // Update is called once per frame
@@ -42,5 +43,14 @@ public class ItemSlot : MonoBehaviour
         slottedItem = emptyItem;
         this.GetComponent<Image>().sprite = slottedItem.itemIcon;
         this.GetComponent<Image>().color = emptyColor;
+    }
+
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        
+        {
+            print("hit");
+            GetComponent<Image>().color = Color.white;
+        }
     }
 }

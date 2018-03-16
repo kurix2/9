@@ -13,6 +13,9 @@ public class DialogSystem : MonoBehaviour {
     public bool itemDilema = false;
     [HideInInspector]
     public bool hiddenDilema = false;
+    private bool skipHidden = false;
+
+    public int gameProgress = 0;
 
     private Queue<string> sentences;   //testing
 
@@ -81,12 +84,17 @@ public class DialogSystem : MonoBehaviour {
                 }
                 else
                 {
-                    if (currentArea.isHidden && hiddenFound == false) 
+                    if (currentArea.isHidden && hiddenFound == false && skipHidden == false) 
                     {
                         string key = currentArea.keyItem;
-                        if (Inventory.Instance.CheckItem(key) == true)
+                        if (Inventory.Instance.CheckItem(key) == true || key == null)
                         {
-                            HiddenDialogue();
+                            if (gameProgress >= currentArea.progressPrereq)
+                            {
+                               HiddenDialogue();
+
+                            }
+                            else { HideDescription(); }
 
                         }
                         else { HideDescription(); }
@@ -98,7 +106,9 @@ public class DialogSystem : MonoBehaviour {
                             Transform hidTrig = currentArea.gameObject.transform.GetChild(0);
                             currentArea = hidTrig.GetComponent<AreaDescription>();
                             HideDescription(); // <used to close first area description before switching to new one.
-                            currentArea.OpenHiddenTrigger(); } else { HideDescription(); }
+                            currentArea.OpenHiddenTrigger();
+                            hiddenFound = false;
+                        } else { HideDescription(); }
                         return;
                     }
 
@@ -119,15 +129,37 @@ public class DialogSystem : MonoBehaviour {
 
     void ItemDialogue()
     {
-        itemDilema = true;
+        if (currentArea.itemTexts.Length==0)
+        {
+            isItem = false;
+            GetItem();
+            NextSentence();
 
+        }
+        else
+        {
+        itemDilema = true;
         ChangeDialog(currentArea.itemTexts[0]);
+        }
+
     }
 
     void HiddenDialogue()
     {
-        hiddenDilema = true;
-        ChangeDialog(currentArea.hiddenTexts[0]);
+        if (currentArea.hiddenTexts.Length==0)
+        {
+            if (gameProgress < currentArea.progressOnHidden)
+            {
+                gameProgress = currentArea.progressOnHidden;
+            }
+            HiddenFound();
+            NextSentence();
+        }
+        else
+        {
+            hiddenDilema = true;
+            ChangeDialog(currentArea.hiddenTexts[0]);
+        }
     }
 
     public void OptionInput(int x)
@@ -140,9 +172,7 @@ public class DialogSystem : MonoBehaviour {
             switch (x)
             {
                 case 1: //affirmative response (get Item)
-                    Item areaItem = currentArea.GetComponent<AreaDescription>().item;
-                    Inventory.Instance.AddItem(areaItem);
-                    currentArea.isItem = false;
+                    GetItem();
                     break;
                 case 2: //negative response (ignore item, return to default flow)
                     break;
@@ -154,12 +184,37 @@ public class DialogSystem : MonoBehaviour {
         {
             ChangeDialog(currentArea.hiddenTexts[x]);
             hiddenDilema=false;
-            if (x == 1) { hiddenFound = true; }
+            skipHidden = true;
+            for (int i = 0; i < currentArea.hiddenAnswers.Length; i++)
+            {
+                if (x == currentArea.hiddenAnswers[i])
+                {
+                    if (gameProgress < currentArea.progressOnHidden)
+                    {
+                        gameProgress = currentArea.progressOnHidden;
+                        skipHidden = false;
+                    }
+                    HiddenFound();
+                }
+            }
            
         }
         else {
             print("debug. In dilema dilogue but itemDilema & hiddenDilema are both false");
                 }
+    }
+
+    private void GetItem()
+    {
+        Item areaItem = currentArea.GetComponent<AreaDescription>().item;
+        Inventory.Instance.AddItem(areaItem);
+        currentArea.isItem = false;
+    }
+
+    private void HiddenFound()
+    {
+        hiddenFound = true;
+        Inventory.Instance.CheckKeyDelete(currentArea.keyItem);
     }
 
 
@@ -190,11 +245,16 @@ public class DialogSystem : MonoBehaviour {
     public void HideDescription()
     {
         hiddenFound = false;
+        skipHidden = false;
 
         inspectFrame.SetActive(false);
         displayActive = false;
         DialogSystem.Instance.ClearQueue();
         PlayerController.Instance.moveAllowed=true;
+        if (currentArea.hiddenCommand)
+        {
+            currentArea.ChangeObject();
+        }
     }
 
     public void BattleDialog(string enemy, int hitRange)

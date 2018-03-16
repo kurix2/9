@@ -68,13 +68,19 @@ public class TextInput : MonoBehaviour
                 break;
             case "1":
             case "yes": //testing
-                print("you typed " + input);
                 DialogSystem.Instance.OptionInput(1);
                 break;
             case "no":
             case "2": //testing
-                print("you typed " + input);
                 DialogSystem.Instance.OptionInput(2);
+                break;
+            default:
+                int option;
+                if (int.TryParse(input, out option))
+                {
+                    DialogSystem.Instance.OptionInput(option);
+
+                }
                 break;
 
         }

@@ -56,19 +56,48 @@ public class Inventory : MonoBehaviour {
         switch (newItem.itemType)
         {
             case Item.ItemType.Shield:
+                if (eqpedShield.itemType!=Item.ItemType.Empty)
+                {
+                Item oldItem = eqpedShield; //move any equipped item to inventory.
+                    UnequipItem(oldItem);
+
+                }
+
                 eqpedShield = newItem;
                 leftSlot.SlotItem(newItem);
                 break;
+
             case Item.ItemType.Weapon:
+                if (eqpedWeapon.itemType != Item.ItemType.Empty)
+                {
+                    Item oldItem = eqpedWeapon; //move any equipped item to inventory.
+                    UnequipItem(oldItem);
+
+                }
+
                 eqpedWeapon = newItem;
                 rightSlot.SlotItem(newItem);
-                print("equipped weapon");
                 break;
+
             case Item.ItemType.Armor:
+                if (eqpedArmor.itemType != Item.ItemType.Empty)
+                {
+                    Item oldItem = eqpedArmor; //move any equipped item to inventory.
+                    UnequipItem(oldItem);
+
+                }
+
                 eqpedArmor = newItem;
                 bodySlot.SlotItem(newItem);
                 break;
             case Item.ItemType.Helmet:
+                if (eqpedHelm.itemType != Item.ItemType.Empty)
+                {
+                    Item oldItem = eqpedHelm; //move any equipped item to inventory.
+                    UnequipItem(oldItem);
+
+                }
+
                 eqpedHelm = newItem;
                 headSlot.SlotItem(newItem);
                 break;
@@ -76,10 +105,8 @@ public class Inventory : MonoBehaviour {
                 print("undefined equip type");
                 break;
         }
-        BattleManager.Instance.playerAtk += newItem.atkBonus;
-        BattleManager.Instance.playerMxHp += newItem.hpBonus;
-        BattleManager.Instance.playerHp += newItem.hpBonus;
-        BattleManager.Instance.hpHearts.GetComponent<HeartHp>().CalculateHp();
+
+        BattleManager.Instance.SynchEquipStats(newItem, false);
     }
 
     public void UnequipItem(Item oldItem)
@@ -107,10 +134,10 @@ public class Inventory : MonoBehaviour {
                 print("undefined equip type");
                 break;
         }
-        BattleManager.Instance.playerAtk -= oldItem.atkBonus;
-        BattleManager.Instance.playerMxHp -= oldItem.hpBonus;
-        BattleManager.Instance.playerHp -= oldItem.hpBonus;
-        BattleManager.Instance.hpHearts.GetComponent<HeartHp>().CalculateHp();
+
+        inventory.Add(oldItem);
+
+        BattleManager.Instance.SynchEquipStats(oldItem, true);
     }
 
     #endregion
@@ -157,6 +184,22 @@ public class Inventory : MonoBehaviour {
         }
     }
 
+    public void CheckKeyDelete(string item)
+    {
+        for (int i = 0; i < inventory.Count; i++)
+        {
+            if(inventory[i].itemName == item)
+            {
+                if (inventory[i].itemType==Item.ItemType.Key)
+                {
+                    DeleteItem(item);
+                }
+                else { print("keyItem was not a consumable Key"); }
+            }
+            break;
+        }
+    }
+
     bool BetterThanEquipped(Item item)
     {
         bool result = false;
@@ -197,6 +240,6 @@ public class Inventory : MonoBehaviour {
 
     public void DebugTest()
     {
-        UnequipItem(eqpedWeapon);
+        inventory.Add(new Item("Billy the Bull", "", Item.ItemType.Key, 0, 0));
     }
 }

@@ -27,14 +27,4 @@ public class ItemDatabase : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    /*public void StockItem(Item stockItem)
-    {
-        itemStock = stockItem;
-    }
-
-    public void ClearStock()
-    {
-        itemStock = null;
-    }*/
 }

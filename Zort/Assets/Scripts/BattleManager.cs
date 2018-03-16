@@ -9,6 +9,8 @@ public class BattleManager : MonoBehaviour {
     public int playerHp;
     public Transform hpHearts;
     public int playerAtk = 2;
+    private GameObject AtkText;
+    private Text xAtk;
     private int AtkCount;
 
     [HideInInspector] public bool inBattle = false;
@@ -31,8 +33,38 @@ public class BattleManager : MonoBehaviour {
     private void Start()
     {
         AtkCount = playerAtk;
-        playerHp = playerMxHp;
+        if (AtkText==null)
+        {
+            AtkText = GameObject.Find("Atk text");
+        }
+        xAtk = AtkText.GetComponent<Text>();
+        xAtk.text = "x" + playerAtk.ToString();
+        print("battle manager started");
     }
+
+    #region PlayerStats
+
+    public void SynchEquipStats(Item itm, bool unequip)
+    {
+        if (unequip)
+        {
+            playerAtk -= itm.atkBonus;
+            playerMxHp -= itm.hpBonus;
+            playerHp -= itm.hpBonus;
+        }
+        else
+        {
+
+        playerAtk += itm.atkBonus;
+        playerMxHp += itm.hpBonus;
+        playerHp += itm.hpBonus;
+        }
+
+        hpHearts.GetComponent<HeartHp>().CalculateHp();
+        xAtk.text = "x"+ playerAtk.ToString();
+    }
+
+    #endregion
 
     public void GenerateBattleStats(string name, int hitRng, int enemyHp, int AtkDmg)
     {

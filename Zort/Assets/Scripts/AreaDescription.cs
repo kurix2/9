@@ -4,12 +4,22 @@ using System.Collections;
 [System.Serializable]
 public class AreaDescription : MonoBehaviour {
 
-    [TextArea(1,4)]
+    [TextArea(1, 4)]
     public string[] areaTexts;
 
     public bool isDanger = false;
     public bool isItem = false;
     public bool isHidden = false;
+
+    [Space]
+    public bool hiddenCommand;
+    public GameObject objToChange;
+    public GameObject objAfterChange;
+
+    [Space]
+    public int progressPrereq;
+    public int progressOnStart;
+    public int progressOnHidden;
 
     [Space]
     [TextArea(1, 4)]
@@ -20,6 +30,7 @@ public class AreaDescription : MonoBehaviour {
     [Header("Hidden Triggers")]
     [TextArea(1, 4)]
     public string[] hiddenTexts;
+    public int[] hiddenAnswers;
     public string keyItem;
 
     [Space]
@@ -33,9 +44,17 @@ public class AreaDescription : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            if (progressOnStart > 0)
+            {
+                int prog = DialogSystem.Instance.gameProgress;
+                if (prog < progressOnStart)
+                {
+                    DialogSystem.Instance.gameProgress = progressOnStart;
+                }
+            }
             DialogSystem.Instance.SetActiveArea(GetComponent<AreaDescription>());
 
-            foreach(string text in areaTexts)
+            foreach (string text in areaTexts)
             {
                 DialogSystem.Instance.QueueSentence(text);
             }
@@ -51,7 +70,7 @@ public class AreaDescription : MonoBehaviour {
                 DialogSystem.Instance.isItem = true;
             }
             DialogSystem.Instance.NextSentence();
-            
+
         }
     }
 
@@ -66,9 +85,9 @@ public class AreaDescription : MonoBehaviour {
 
     #region Hidden Triggers
 
+
     public void OpenHiddenTrigger()
     {
-        print("hidden trigger Opened");
         DialogSystem.Instance.SetActiveArea(GetComponent<AreaDescription>());
         DialogSystem.Instance.ClearQueue();
 
@@ -91,6 +110,23 @@ public class AreaDescription : MonoBehaviour {
         DialogSystem.Instance.NextSentence();
 
     }
+
+    public void ChangeObject()
+    {
+        if (objAfterChange!=null)
+        {
+            Instantiate(objAfterChange, this.transform.position, Quaternion.identity);
+        }
+        if (objToChange!=null)
+        {
+            Destroy(objToChange);
+        }
+        else
+        {
+            print("Object to be destroyed hasn`t been specified for the ChangObject() function");
+        }
+    }
+
     #endregion
 
 }

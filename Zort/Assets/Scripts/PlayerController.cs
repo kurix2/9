@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour {
     {
        
             Controls();
+
     }
 
     void Controls()
@@ -67,7 +68,6 @@ public class PlayerController : MonoBehaviour {
         #region MouseControls
         if (pointClicked)
         {
-                // player.transform.position = Vector2.MoveTowards(player.transform.position, clickPoint, Time.deltaTime * clickMoveSpeed); 
                 transform.position = Vector2.MoveTowards(transform.position, clickPoint, Time.deltaTime * clickMoveSpeed);
             }
         if (Input.GetMouseButton(0) || Input.GetMouseButton(1)) 
@@ -85,6 +85,7 @@ public class PlayerController : MonoBehaviour {
             if (!pointClicked) { pointClicked = true; }
             clickPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
+     
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
